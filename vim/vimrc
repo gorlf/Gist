@@ -63,11 +63,15 @@
  
  "molokai
  colorscheme molokai
+ 
 
  "other config
  set nu
  set mouse=a
- set tabstop=2
+ set tabstop=4
+ set softtabstop=4
+ set shiftwidth=4
+ set expandtab
  let mapleader = ","  
  let g:mapleader = ","  
  map Y "+y  
@@ -76,7 +80,7 @@
  hi CursorLine   cterm=NONE ctermbg=grey guibg=grey
 
  "easymotion
- let g:EasyMotion_leader_key = '<Leader>'
+ let g:EasyMotion_leader_key = 'f'
 
  "powerline config
  set laststatus=2
